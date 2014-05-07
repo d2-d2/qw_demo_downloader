@@ -1,0 +1,235 @@
+146.185.142.84:27500		#srwc - the biggest cunts on the internet 
+202.37.129.186:27501		Abyss (DM) 
+202.37.129.186:27500		Abyss (FFA) 
+67.228.69.114:26666		AGR: Every Saturday 23:00 GMT 
+213.133.100.142:27501		Asgaard 1on1/2on2/4on4 - Nuernberg, Germany 
+213.133.100.142:27502		Asgaard 1on1/2on2/4on4 - Nuernberg, Germany 
+213.133.100.142:27503		Asgaard CTF - Nuernberg, Germany 
+213.133.100.142:27500		Asgaard FFA - Nuernberg, Germany 
+65.31.69.75:27508		Asgaard ProzacTF Coop [CustomTF] 
+66.151.244.60:27500		B1aze's Dallas server # 0 
+66.151.244.60:27501		B1aze's Dallas server # 1 
+94.23.10.12:28504		BaseQ.fr * Free 4 ALL 
+37.59.63.97:28501		BaseQ.fr * KTX Server #1 
+37.59.63.97:28502		BaseQ.fr * KTX Server #2 
+37.59.63.97:28503		BaseQ.fr * KTX Server #3 
+37.59.63.97:28504		BaseQ.fr * KTX Server #4 
+94.23.10.12:28501		BaseQ.fr * KTX Server #5 
+94.23.10.12:28502		BaseQ.fr * KTX Server #6 
+94.23.10.12:28503		BaseQ.fr * KTX Server #7 
+37.59.63.97:30000		BaseQ.fr - QWFWD 
+95.31.4.132:30000		clanarena.ru    qwfwd 
+212.227.97.69:28501		Daddelbox #1 
+208.83.20.179:27669		desync.com final arena 
+208.83.20.179:27500		desync.com qwdm 
+208.83.20.179:27666		desync.com qwtf 
+82.141.152.3:27501		Dragon QW Free For All Server 
+82.141.152.3:27500		Dragon QW KTX 
+77.80.252.71:27501		DreamHack KTX #1 
+77.80.252.71:27502		DreamHack KTX #2 
+77.80.252.71:27503		DreamHack KTX #3 
+77.80.252.71:27504		DreamHack KTX #4 
+77.80.252.71:27505		DreamHack KTX #5 
+77.80.252.71:27506		DreamHack KTX #6 
+77.80.252.71:27507		DreamHack KTX #7 
+77.80.252.71:27508		DreamHack KTX #8 
+77.80.252.71:27509		DreamHack KTX #9 
+77.80.252.71:27500		DreamHack Pro-X CA 
+77.80.252.71:27510		DreamHack QTV 
+77.80.252.71:30000		DreamHack qwfwd 
+95.84.164.245:27500		EZH  server 
+95.84.164.245:27501		EZH TF COOP 
+161.57.3.141:27500		Ferris State Dawg Pound DM 
+96.231.199.244:27501		FFA @ sparc.nicotinelounge .com #2 
+46.72.193.106:27500		FFA Server 
+212.13.200.98:27500		froschroom clan arena 
+212.13.203.166:28000		froschroom QTV 
+122.99.118.2:28001		fsgamers.org DM (KTX) 
+213.133.100.142:27599		FTEQTV 
+203.217.24.34:28501		GamersUnited.net.au KTX #1 
+203.217.24.34:28502		GamersUnited.net.au KTX #2 
+203.217.24.34:28503		GamersUnited.net.au KTX #3 
+203.217.24.34:28504		GamersUnited.net.au KTX #4 
+203.217.24.34:30000		GamersUnited.net.au QWFWD 
+130.85.56.131:27500		Hashbang 1on1r 
+94.137.97.57:28501		hb0da 4 life KTX #1 
+94.137.97.57:28502		hb0da 4 life KTX #2 
+94.137.97.57:28503		hb0da 4 life KTX #3 
+94.137.97.57:28504		hb0da 4 life KTX #4 
+94.137.97.57:28000		hb0da 4 life QTV 
+94.137.97.57:27500		hb0da FFA 
+94.137.97.57:27700		hb0da Team Fortress 
+95.67.86.202:30000		hideout.pp.ua for #promode.ru 
+193.0.78.5:27500		kateiks huhuha 
+78.137.161.109:27500		ktx.quake.ie #1 
+78.137.161.109:27501		ktx.quake.ie #2 
+78.137.161.109:27502		ktx.quake.ie #3 
+195.154.226.223:28501		lanvegas qw #1 
+109.74.195.224:27500		London KTX 27500 
+109.74.195.224:27501		London KTX 27501 
+87.102.151.33:27502		neppomuk.ch CustomTF 
+87.102.151.33:27505		Neppomuk.ch GenCl 
+87.102.151.33:27500		neppomuk.ch SCTF 
+217.30.184.104:27500		Nice One (1) - Team Fortress 
+62.20.115.126:28001		persuader.se KTX #1 
+62.20.115.126:28002		persuader.se KTX #2 
+95.143.243.24:27500		PHC KTX Server #1 
+95.143.243.24:27600		PHC KTX Server #2 
+95.143.243.24:27700		PHC KTX Server #3 
+95.143.243.24:27900		PHC Qizmo Server 
+78.137.161.109:27500		play.quake.ie 
+212.42.38.88:30000		PlayGround 
+212.42.38.88:27500		PlayGround # 0 
+212.42.38.88:27501		PlayGround # 1 
+212.42.38.88:27502		PlayGround # 2 
+212.42.38.88:27503		PlayGround # 3 
+212.42.38.88:27504		PlayGround # 4 
+76.72.167.203:28501		PlayQuake.US KTX DM #1 
+202.172.99.2:28001		premiumgamer.com ~ QW #1 
+202.172.99.2:28002		premiumgamer.com ~ QW #2 
+202.172.99.2:28003		premiumgamer.com ~ QW #3 
+202.172.99.2:27501		premiumgamer.com ~ QW CA 
+202.172.99.2:27500		premiumgamer.com ~ QW FFA 
+97.81.253.72:27000		Pwndora's Box Team Fortress 2.5 
+93.81.254.63:30001		Qizmo - qw2.ru:30001 
+74.86.171.201:27666		QuadDamageServers.net Chimera QWTF Dallas 
+200.98.69.137:27504		Quake Brasil [Clan Arena] 
+200.98.69.137:27500		Quake Brazil [FFA] 
+200.98.69.137:27503		Quake Brazil [KTX Bloodfest] 
+200.98.69.137:27501		Quake Brazil [KTX] #1 
+200.98.69.137:27502		Quake Brazil [KTX] #2 
+84.234.185.215:27500		quake.no Arena maps 
+84.234.185.215:27508		quake.no bbelief Coop 
+84.234.185.215:27502		quake.no Classic DM maps 
+84.234.185.215:27501		quake.no Fragtwn's maps 
+84.234.185.215:27519		quake.no MegaTF Coop Server 
+94.23.252.225:27500		quake.tdhack.com - duel 
+94.23.252.225:28000		quake.tdhack.com - FFA 
+93.186.192.16:28501		QuakeServers.net Allround Germany #1 
+93.186.192.16:28502		QuakeServers.net Allround Germany #2 
+81.4.126.69:28501		QuakeServers.net Allround Netherlands 
+93.186.192.16:27500		QuakeServers.net FFA DM Small 
+93.186.192.16:28000		QuakeServers.net QTV 
+93.186.192.16:30000		QuakeServers.net QWfwd Germany 
+81.4.126.69:30000		QuakeServers.net QWfwd Netherlands 
+212.13.203.167:27500		quakeworld.co.uk KTX #0 
+212.13.203.167:27501		quakeworld.co.uk KTX #1 
+212.13.203.167:27502		quakeworld.co.uk KTX #2 
+212.13.203.167:27503		quakeworld.co.uk KTX #3 
+212.13.203.167:30000		quakeworld.co.uk qwfwd 
+217.119.36.79:30000		Quakeworld.fi 
+217.119.36.79:28001		Quakeworld.fi KTX #1 
+217.119.36.79:28002		Quakeworld.fi KTX #2 
+217.119.36.79:28003		Quakeworld.fi KTX #3 
+217.119.36.79:27500		Quakeworld.fi Large FFA 
+74.91.115.244:28000		QuarkWorld Chicago #1 [KTX] 
+74.91.115.244:28001		QuarkWorld Chicago #2 [KTX] 
+74.91.115.244:28002		QuarkWorld Chicago #3 [KTX] 
+72.5.102.210:28000		QuarkWorld Denver #1 [KTX] 
+72.5.102.210:28001		QuarkWorld Denver #2 [KTX] 
+72.5.102.210:28002		QuarkWorld Denver #3 [KTX] 
+46.72.193.106:28501		qw.e-bash.ru #1 
+46.72.193.106:28000		qw.e-bash.ru Qtv 
+89.104.194.146:27501		qw.foppa.dk #1 - ktx 
+89.104.194.146:27510		qw.foppa.dk #10 - ktx 
+89.104.194.146:27502		qw.foppa.dk #2 - ktx 
+89.104.194.146:27503		qw.foppa.dk #3 - ktx 
+89.104.194.146:27504		qw.foppa.dk #4 - ktx 
+89.104.194.146:27505		qw.foppa.dk #5 - ktx 
+89.104.194.146:27506		qw.foppa.dk #6 - ktx 
+89.104.194.146:27666		qw.foppa.dk #666 - ktx 
+89.104.194.146:27507		qw.foppa.dk #7 - ktx 
+89.104.194.146:27508		qw.foppa.dk #8 - ktx 
+89.104.194.146:27509		qw.foppa.dk #9 - ktx 
+89.104.194.146:27500		qw.foppa.dk - ffa 
+160.79.125.19:28002		qw.QuakePhil.com #2 
+160.79.125.19:27500		qw.QuakePhil.com CA 
+160.79.125.19:27501		qw.QuakePhil.com FFA 
+160.79.125.19:27599		qw.quakephil.com Pro-X Arena 
+160.79.125.19:30001		qw.QuakePhil.com Qizmo 
+160.79.125.19:29000		qw.QuakePhil.com QTV 
+160.79.125.19:30000		qw.QuakePhil.com QWFWD 
+81.170.195.91:28501		qw.sajberhagen.com KTX #1 
+81.170.195.91:28502		qw.sajberhagen.com KTX #2 
+81.170.195.91:28503		qw.sajberhagen.com KTX #3 
+81.170.195.91:28504		qw.sajberhagen.com KTX #4 
+46.246.119.106:27501		qw2.irc.ax KTX #1 
+46.246.119.106:27510		qw2.irc.ax KTX #10 
+46.246.119.106:27502		qw2.irc.ax KTX #2 
+46.246.119.106:27503		qw2.irc.ax KTX #3 
+46.246.119.106:27504		qw2.irc.ax KTX #4 
+46.246.119.106:27505		qw2.irc.ax KTX #5 
+46.246.119.106:27506		qw2.irc.ax KTX #6 
+46.246.119.106:27507		qw2.irc.ax KTX #7 
+46.246.119.106:27508		qw2.irc.ax KTX #8 
+46.246.119.106:27509		qw2.irc.ax KTX #9 
+46.246.119.106:27500		qw2.irc.ax Pro-X CA 
+46.246.119.106:30000		qw2.irc.ax qwfwd 
+93.81.254.63:27500		qw2.ru - Moscow Server FFA 
+93.81.254.63:27501		qw2.ru:27501 - Moscow Server #1 
+93.81.254.63:27502		qw2.ru:27502 - Moscow Server #2 
+93.81.254.63:27503		qw2.ru:27503 - Moscow Server #3 
+93.81.254.63:27504		qw2.ru:27504 - Moscow Server #4 
+91.121.69.201:30000		qwfr.sobol.org 
+213.135.44.37:33090		qwfwd 
+95.85.31.205:30000		QWFWD #AMS ocean.outofplace.ru 
+94.236.92.49:30000		qwuk.sobol.org 
+65.31.69.75:27500		Ratbert's ProZacTF Coop [Custom-FTE] 
+203.143.83.59:27500		Retroverse.com.au 
+209.239.113.236:27500		Rune Quake [quake.shmack.net] 
+91.121.69.201:27500		SoboL .FR FFA 
+91.121.69.201:27501		SoboL .FR KTX #1 
+91.121.69.201:27502		SoboL .FR KTX #2 
+94.236.92.49:27500		SoboL .UK KTX #1 
+94.236.92.49:27501		SoboL .UK KTX #2 
+65.31.235.246:27500		Sunkings CTF Server TWCreeper 
+67.228.69.114:27501		tastyspleen.net :: TX.telefrag.ME [KTX1] 
+67.228.69.114:27502		tastyspleen.net :: TX.telefrag.ME [KTX2] 
+74.86.171.201:27502		tastyspleen.net::Meg aTF Classics 
+74.86.171.201:27500		tastyspleen.net::Meg aTF Co-Op 
+54.232.177.232:27501		Team Fortress @ Revival 2013/2014 #2 
+54.207.88.247:27501		Team Fortress by Team Kuk  2013/2014 #2 
+54.232.177.232:27500		Team Fortress Revival @ 2013/2014 [01] 
+212.13.200.91:27500		telehouse froschroom KTX #0 
+212.13.200.91:27501		telehouse froschroom KTX #1 
+212.13.200.91:27502		telehouse froschroom KTX #2 
+212.13.200.91:27503		telehouse froschroom KTX #3 
+24.191.221.186:27500		The Overlook Hotel 2345 
+194.79.85.66:27501		The Zombie Feijoada #1 
+194.79.85.66:27502		The Zombie Feijoada #2 
+194.79.85.66:30000		The Zombie Feijoada QWfwd 
+78.108.53.19:27500		TheZoo FFA 
+78.108.53.19:27501		TheZoo KTX 
+84.34.166.158:30000		Troopers.fi 
+84.34.166.158:28001		Troopers.fi KTX #1 
+84.34.166.158:28002		Troopers.fi KTX #2 
+84.34.166.158:28003		Troopers.fi KTX #3 
+194.109.69.76:30000		unknown 
+93.81.254.63:30000		unknown 
+80.101.105.103:27500		unnamed 
+74.86.171.201:27503		unnamed 
+130.240.207.177:30000		Unnamed 
+89.104.194.146:30000		unnamed qwfwd 
+65.27.174.34:27500		Weenieville Painkeep 666 
+94.100.6.66:27500		Welcome to etternal darkness 
+85.228.25.165:28001		WELP KTX #1 
+85.228.25.165:28002		WELP KTX #2 
+194.109.69.75:27500		XS4ALL - QuakeWorld FOD Free For All 
+194.109.69.75:27501		XS4ALL - QuakeWorld FOD Free For All (small maps) 
+194.109.69.76:28501		XS4ALL - QuakeWorld KTX Allround #1 
+194.109.69.76:28502		XS4ALL - QuakeWorld KTX Allround #2 
+194.109.69.76:28503		XS4ALL - QuakeWorld KTX Allround #3 
+194.109.69.76:28504		XS4ALL - QuakeWorld KTX Allround #4 
+194.109.69.76:27500		XS4ALL - QuakeWorld KTX Clanwars 
+194.109.69.75:27502		XS4ALL - Quakeworld KTX Rookie FFA 
+194.109.69.75:27830		XS4All - QuakeWorld ProX 
+194.109.69.75:28000		XS4ALL Qizmo 
+192.227.140.108:27501		[Amnesia] Public Server - Chicago 
+74.91.114.184:27500		[Amnesia] Quad Server - Central 
+192.227.140.108:27500		[Amnesia] Quad Server - Chicago 
+188.40.103.81:27600		[Aurora] MegaTF Co-Op Server +exp 
+174.49.199.245:27503		[HCI] COOP #3: [Rubicondom] 
+174.49.199.245:27515		[HCI] DM with monsters: [the Haunted Halls] 
+91.121.69.201:27600		[ThE]SoboL QIZMO 
+68.100.130.114:27500		]|[ Iceflatline QW FFA ]|[ 
+68.100.130.114:27501		]|[ Iceflatline QW Team Fortress ]|[

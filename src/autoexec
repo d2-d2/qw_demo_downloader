@@ -1,0 +1,4 @@
+name demo_downloader
+cl_maxfps 30
+connect quake.tdhack.com
+alias f_spawn "exec dl.cfg"

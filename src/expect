@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+eval spawn ./thin_client +exec autoexec.cfg
+expect "Connected."
+sleep 5
+send "cmd dl 213\n"
+sleep 30
+send "quit\n"
+expect eof
