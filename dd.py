@@ -8,10 +8,13 @@ waitseconds = 2
 DLTIMEOUT = 30
 
 if re.search("cygwin", str(platform.uname()).lower()):
-    THINCLIENT='thin_client.exe'
+    if re.search("x86_64", str(platform.uname()).lower()):
+        THINCLIENT='win/64/thin_client.exe'
+    else:
+        THINCLIENT='win/32/thin_client.exe'
     os.chmod('lib/'+THINCLIENT, 0755)
 else:
-    THINCLIENT='thin_client'
+    THINCLIENT='lin/32/thin_client'
     os.chmod('lib/'+THINCLIENT, 0755)
 
 if len(sys.argv) < 2:
@@ -28,8 +31,8 @@ def f_parse():
   %(prog)s --download 212,213 --qwservers 94.23.252.225:27500   -- download demo 212,213 from 94.23.252.225 server
     '''
     parser = argparse.ArgumentParser(
-                    description='%(prog)s by d2@tdhack.com is designed to perform simple search/download operations on quakeworld servers for demo files', 
-                    usage='%(prog)s [options]', 
+                    description='%(prog)s by d2@tdhack.com is designed to perform simple search/download operations on quakeworld servers for demo files',
+                    usage='%(prog)s [options]',
                     epilog=epilog,
                     formatter_class=lambda prog: argparse.RawDescriptionHelpFormatter(prog,max_help_position=80, width=100),
                     )
@@ -80,16 +83,20 @@ f_parse()
 if options.search:
     if 'file:' in options.qwservers:
         if not os.path.isfile(options.qwservers.split(':')[1]):
-            print "[!] %s file does exist, please download them from: http://www.quakeservers.net/lists/servers/servers.txt or create one\n\nFormat:\n\t94.23.252.225:27500		quake.tdhack.com - duel" % qwlist
+            print "[!] %s file does exist, please download them from: http://www.quakeservers.net/lists/servers/servers.txt or create one\n\nFormat:\n\t94.23.252.225:27500             quake.tdhack.com - duel" % qwlist
             sys.exit(1)
         f=open(options.qwservers.split(':')[1])
         fdata = f.readlines()
         f.close()
+        with open(options.qwservers.split(':')[1]) as f:
+            for i, l in enumerate(f):
+                pass
+        flines=i+1
     else:
         fdata=options.qwservers.split(',')
-        print 'fdata: %s' % fdata
-
-    print '[*] searching "%s" ... please wait (result will appear on screen)' % options.search
+        flines=len(fdata)
+    flinescur=1
+    nlist=[]
     for hostport in fdata:
         if 'file:' in options.qwservers:
             hostport=hostport.split()
@@ -110,6 +117,9 @@ if options.search:
         except socket.error, msg :
             print '[-] Failed to create socket. Error Code : ' + str(msg[0]) + ' Message ' + msg[1]
             sys.exit()
+        print('\r[%s/%s] searching "%s" ... please wait (result will appear on screen)') % (flinescur, flines, options.search),
+        sys.stdout.flush()
+        flinescur=flinescur+1
         server_address = (qwhost, qwport)
         prefix = chr(255)*4
         datapack=''
@@ -126,6 +136,7 @@ if options.search:
                     else:
                         datapack+=re.sub(prefix+'n', "", data)
                 else:
+                    print '\n\t[-] uable to get demos from %s:%s server' % (qwhost,int(qwport))
                     sock.close()
                     break
         except socket.error, msg:
@@ -136,9 +147,13 @@ if options.search:
         datapack=repr(datapack).split('\\n')
         for datapack_data in datapack:
             if re.match(options.search, datapack_data):
-                #print '[+] demo "%s" found on %s:%s [%s]' % (options.search, qwhost, qwport, qwserverdesc)
-                print '%15s:%5s %s' % (qwhost, qwport, datapack_data)
-
+                append_data=[qwhost,qwport,datapack_data.split(':')[0].strip(),datapack_data.split(':')[1].strip()]
+                nlist.append(append_data)
+    sys.stdout.flush()
+    print "\n"
+    print '%15s %5s %11s %s' % ('host', 'port', 'demo_number', 'demo_file(size)')
+    for item in xrange(len(nlist)):
+        print '%15s %5s %11s %s' %(nlist[item][0], nlist[item][1], nlist[item][2], nlist[item][3])
 if options.download:
     for demonum in options.download.split(','):
         if not demonum.isdigit():
@@ -168,7 +183,6 @@ if options.download:
                 content = myfile.read()
             demofile = re.search(r'File .*.mvd', content, re.DOTALL).group().split()
             print '\t[+] number %s is demofile: %s' % (demonum, demofile[1])
-            #time.sleep(DLTIMEOUT)
             print '\t[+] waiting for download thread to finish... this will take a while'
             child.expect(['### download completed: ', pexpect.EOF, pexpect.TIMEOUT])
             print '\t[+] checking if %s file is OK' % demofile[1]
@@ -179,4 +193,3 @@ if options.download:
                 crc=1
             else:
                 print '\t[-] failed downloading demo, try increasing timeout +30seconds'
-                #DLTIMEOUT=DLTIMEOUT+30
