@@ -154,6 +154,7 @@ if options.search:
     print '%15s %5s %11s %s' % ('host', 'port', 'demo_number', 'demo_file(size)')
     for item in xrange(len(nlist)):
         print '%15s %5s %11s %s' %(nlist[item][0], nlist[item][1], nlist[item][2], nlist[item][3])
+
 if options.download:
     for demonum in options.download.split(','):
         if not demonum.isdigit():
@@ -173,8 +174,8 @@ if options.download:
                 os.remove('/tmp/mylog')
             child.logfile = open('/tmp/mylog', 'w')
             print '\t[+] waiting for "Connected" string'
-            child.expect(['Connected', pexpect.EOF, pexpect.TIMEOUT])
             time.sleep(5)
+            child.expect('Connected.', timeout=5)
             print '\t[+] sending "cmd dl %s" command' % (demonum)
             child.sendline('cmd dl '+demonum+'\n')
             time.sleep(5)
