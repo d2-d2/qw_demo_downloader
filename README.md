@@ -6,7 +6,7 @@ Quick and dirty PoC for console client that can search/download demos from quake
 
 * python modules: socket, sys, re, os, select, argparse, pexpect, platform, time
 * OS: 32/64bit Windows/Linux (precompiled binaries of thin_client are inside lib/ directory)
-* MDVSV/KTX servers (this software is not compatible with FTE)
+* MVDSV/KTX servers (this software is not compatible with FTE)
 
 ## Installation
 
