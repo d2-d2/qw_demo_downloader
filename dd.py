@@ -13,8 +13,10 @@ if re.search("cygwin", str(platform.uname()).lower()):
     else:
         THINCLIENT='win/32/thin_client.exe'
     os.chmod('lib/'+THINCLIENT, 0755)
+    TMPDIR=''
 else:
     THINCLIENT='lin/32/thin_client'
+    TMPDIR='/tmp/'
     os.chmod('lib/'+THINCLIENT, 0755)
 
 if len(sys.argv) < 2:
@@ -170,9 +172,9 @@ if options.download:
             print '[*] downloading demo number: %s, from %s:%s, using %s' % (demonum, qwhost, qwport, THINCLIENT)
             print '\t[+] spawning connection'
             child = pexpect.spawn('lib/'+THINCLIENT+' +set cl_maxfps 30 +connect '+qwhost+':'+qwport+' +name demo_downloader +spectator 1', timeout=300)
-            if os.path.isfile('/tmp/mylog'):
-                os.remove('/tmp/mylog')
-            child.logfile = open('/tmp/mylog', 'w')
+            if os.path.isfile(TMPDIR+'mylog'):
+                os.remove(TMPDIR+'mylog')
+            child.logfile = open(TMPDIR+'mylog', 'w')
             print '\t[+] waiting for "Connected" string'
             time.sleep(5)
             child.expect('Connected.', timeout=5)
@@ -180,7 +182,7 @@ if options.download:
             child.sendline('cmd dl '+demonum+'\n')
             time.sleep(5)
             child.expect(['File .*', pexpect.EOF, pexpect.TIMEOUT])
-            with open('/tmp/mylog', 'r') as myfile:
+            with open(TMPDIR+'mylog', 'r') as myfile:
                 content = myfile.read()
             demofile = re.search(r'File .*.mvd', content, re.DOTALL).group().split()
             print '\t[+] number %s is demofile: %s' % (demonum, demofile[1])
@@ -190,7 +192,7 @@ if options.download:
             s = file('qw/'+demofile[1], 'r').read()
             if s.find('EndOfDemo') >=0:
                 print '\t[+] demo download OK'
-                os.remove('/tmp/mylog')
+                os.remove(TMPDIR+'mylog')
                 crc=1
             else:
                 print '\t[-] failed downloading demo, try increasing timeout +30seconds'
