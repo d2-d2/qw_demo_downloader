@@ -72,12 +72,12 @@ $ python dd.py --download 213 --qwservers 94.23.252.225:27500
         [+] demo download OK
 ```
 
-### 4. Bugs
+### bugs
 
 - connection error handling for thin_client is not working
 - error reading real demoname
 - lack of detection for UDP errors, sometimes resulting in endless loop for python script
 
-### Ideas? Reports?
+### ideas? reports?
 
 Send them to: d2@tdhack.com
